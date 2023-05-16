@@ -3,7 +3,8 @@
   const selectors = {
     btnShow: '[data-btn-menu-show]',
     btnHide: '[data-btn-menu-hide]',
-    menu: '[data-menu]'
+    menu: '[data-menu]',
+    menuLink: '[data-menu] a'
   };
 
   const init = () => {
@@ -12,6 +13,11 @@
 
     const btnHide = document.querySelector(selectors.btnHide);
     btnHide.addEventListener('click', hide);
+
+    const menuLinks = document.querySelectorAll(selectors.menuLink);
+    menuLinks.forEach(link => {
+      link.addEventListener('click', hide);
+    });
   };
 
   const show = () => {
