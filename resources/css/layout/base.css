@@ -1,0 +1,41 @@
+/* * {
+  background: rgb(0 100 0 / 0.05) !important;
+} */
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+}
+
+nav.site-menu {
+  @apply opacity-0 -z-10 pointer-events-none transition-opacity md:opacity-100 md:z-50 md:pointer-events-auto;
+}
+
+nav.site-menu.is-visible {
+  @apply opacity-100 z-50 pointer-events-auto
+}
+
+.site-container {
+  @apply max-w-[1200px] px-20 md:px-70 mx-auto;
+}
+
+strong {
+  @apply font-bold
+}
+
+p {
+  @apply max-w-[700px] mb-16
+}
+
+p:last-of-type,
+p:last-child {
+  @apply mb-0
+}
+

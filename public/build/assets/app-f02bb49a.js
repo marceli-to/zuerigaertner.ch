@@ -1,0 +1,1 @@
+(function(){const e={btnShow:"[data-btn-menu-show]",btnHide:"[data-btn-menu-hide]",menu:"[data-menu]"},t=()=>{document.querySelector(e.btnShow).addEventListener("click",o),document.querySelector(e.btnHide).addEventListener("click",c)},o=()=>{document.querySelector(e.menu).classList.add("is-visible")},c=()=>{document.querySelector(e.menu).classList.remove("is-visible")};t()})();
