@@ -60,3 +60,31 @@ p:last-child {
 a[class="scroll-mt-80 md:scroll-mt-125"] {
   @apply inline-block;
 }
+
+.content h1 {
+  @apply mb-40
+}
+
+.content h2 {
+  @apply mb-10
+}
+
+.content p {
+  @apply mb-30
+}
+
+.content p a {
+  @apply hover:underline hover:underline-offset-2
+}
+
+.content ul {
+  @apply list-disc mb-30 ml-20
+}
+
+.content ul li {
+  @apply list-item
+}
+
+.content ul li p {
+  @apply !mb-0
+}
