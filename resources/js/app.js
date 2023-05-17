@@ -2,5 +2,5 @@
 import '../css/app.css';
 import './modules/menu.js';
 import './modules/map.js';
-import './modules/lazy.js';
+// import './modules/lazy.js';
 import './modules/fancybox.js';
