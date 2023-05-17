@@ -47,16 +47,12 @@ function initializeMap() {
   });
 }
 
-loadMapboxScript();
+function scrollEventHandler() {
+  if (window.pageYOffset > 500) {
+    loadMapboxScript();
+    window.removeEventListener('scroll', scrollEventHandler);
+  }
+}
 
-// // Add an event listener to trigger the Mapbox script loading when the user interacts with the page
-// window.addEventListener('scroll', function() {
-//   // Adjust the conditions for when to load the Mapbox script based on your requirements
-//   if (window.pageYOffset > 500) {
-//     loadMapboxScript();
-//     // Remove the event listener to avoid unnecessary script loading
-//     window.removeEventListener('scroll', arguments.callee);
-//   }
-// });
-
+window.addEventListener('scroll', scrollEventHandler);
 
