@@ -1,13 +1,20 @@
 {
+  "resources/css/img/marker.svg": {
+    "file": "assets/marker-e3b0c442.svg",
+    "src": "resources/css/img/marker.svg"
+  },
   "resources/js/app.css": {
-    "file": "assets/app-872bd1f6.css",
+    "file": "assets/app-97536a23.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.js": {
-    "css": [
-      "assets/app-872bd1f6.css"
+    "assets": [
+      "assets/marker-e3b0c442.svg"
     ],
-    "file": "assets/app-a7098867.js",
+    "css": [
+      "assets/app-97536a23.css"
+    ],
+    "file": "assets/app-5157a976.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

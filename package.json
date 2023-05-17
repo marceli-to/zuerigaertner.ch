@@ -19,6 +19,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.17",
     "@vitejs/plugin-vue": "^4.0.0",
     "vue": "^3.2.36",
     "vue3-toastify": "0.0.4"

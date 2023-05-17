@@ -1,14 +1,15 @@
 <a href="javascript:;" title="Menu anzeigen" class="text-evergreen block mt-10 md:hidden" data-btn-menu-show>
   {{ partial:icons/burger }}
 </a>
-<nav class="site-menu bg-vanilla fixed right-0 top-0 pb-60 min-h-fit min-w-[60%] md:order-1 md:relative md:-bottom-3 md:pb-0 md:min-w-auto md:top-auto md:right-auto md:bg-transparent" data-menu>
+<nav class="site-menu bg-vanilla fixed right-0 top-0 pb-60 min-h-fit min-w-[60%] md:relative md:-bottom-3 md:pb-0 md:min-w-auto md:top-auto md:right-auto md:bg-transparent" data-menu>
   <a href="javascript:;" title="Menu verbergen" class="text-evergreen block fixed right-22 top-27 md:hidden" data-btn-menu-hide>
     {{ partial:icons/cross }}
   </a>
-  <ul class="mt-80 md:mt-0 md:mr-25 md:flex md:justify-end md:items-end leading-none">
+  <ul class="mt-80 md:mt-0 md:ml-25 md:flex md:justify-start md:items-end leading-none">
     {{ partial:menu/item :url="'#angebot'" :text="'Angebot'" }}
     {{ partial:menu/item :url="'#dienstleistungen'" :text="'Dienstleistungen'" }}
     {{ partial:menu/item :url="'#team'" :text="'Team'" }}
     {{ partial:menu/item :url="'#kontakt'" :text="'Kontakt'" }}
+    {{ partial:menu/item :url="'#referenzen'" :text="'Referenzen'" }}
   </ul>
 </nav>

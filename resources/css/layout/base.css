@@ -39,3 +39,22 @@ p:last-child {
   @apply mb-0
 }
 
+/* Fancybox */
+.fancybox__backdrop {
+  @apply !bg-evergreen bg-opacity-95
+}
+.f-button:not([disabled]) {
+  @apply !bg-transparent
+}
+
+/* Mapbox */
+.marker {
+  background-image: url('../img/marker.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  height: 50px;
+  width: 40px;
+
+}
+
