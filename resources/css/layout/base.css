@@ -49,7 +49,7 @@ p:last-child {
 
 /* Mapbox */
 .marker {
-  background-image: url('./assets/marker.svg');
+  background-image: url('./build/assets/marker.svg');
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
