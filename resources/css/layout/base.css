@@ -55,6 +55,8 @@ p:last-child {
   cursor: pointer;
   height: 50px;
   width: 40px;
-
 }
 
+a[class="scroll-mt-80 md:scroll-mt-125"] {
+  @apply inline-block;
+}
